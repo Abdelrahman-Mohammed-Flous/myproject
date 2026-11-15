@@ -1,23 +1,21 @@
-# Python Projects
+# Numerical Methods in Python
 
-A collection of my Python projects and practice code, written while studying Computer Engineering and learning AI engineering.
+A collection of Python programs that implement classic numerical methods from scratch. Each method is a standalone script that runs in the terminal and asks for its inputs interactively.
 
-## Projects
+## Methods
 
-| Project | Description |
-|---|---|
-| [project-1-folder] | [One-line description of what it does] |
-| [project-2-folder] | [One-line description of what it does] |
-| [project-3-folder] | [One-line description of what it does] |
+| File | Method | Purpose |
+|---|---|---|
+| `Project_BiSection.py` | Bisection Method | Finds a root of an equation by repeatedly halving an interval that contains the root |
+| `Project_Secant.py` | Secant Method | Finds a root using a secant line through two points, with no derivative needed |
+| `Project_Modified_Secant.py` | Modified Secant Method | A variation of the secant method that uses a small perturbation of a single point |
+| `Project_Newton_Raphson.py` | Newton-Raphson Method | Finds a root using the function and its derivative, usually converging quickly |
+| `Project_Linear_Regression.py` | Linear Regression | Fits a straight line `y = a + bx` to a set of data points using least squares |
 
 ## Requirements
 
 - Python 3.x
-- Libraries used (install with pip):
-
-```bash
-pip install [library-1] [library-2]
-```
+- No external libraries are needed for the core scripts
 
 ## How to Run
 
@@ -28,26 +26,24 @@ git clone https://github.com/Abdelrahman-Mohammed-Flous/myproject.git
 cd myproject
 ```
 
-2. Go into the project you want to run:
+2. Run any script:
 
 ```bash
-cd [project-folder]
+python Project_BiSection.py
 ```
 
-3. Run the main file:
-
-```bash
-python [main-file].py
-```
+3. Follow the prompts in the terminal. For example, Linear Regression first asks for the number of points, then the `x` and `y` values.
 
 ## Project Structure
 
 ```
 myproject/
-├── [project-1-folder]/
-│   └── [main-file].py
-├── [project-2-folder]/
-│   └── [main-file].py
+├── Project_BiSection.py
+├── Project_Secant.py
+├── Project_Modified_Secant.py
+├── Project_Newton_Raphson.py
+├── Project_Linear_Regression.py
+├── .gitignore
 └── README.md
 ```
 
